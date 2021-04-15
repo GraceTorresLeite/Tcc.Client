@@ -3,6 +3,6 @@ import './styles.css';
 
 export default function Login() {
     return (
-        <h1>Bem-vindo</h1>
+        <h1> &copy; 2021 - Schedule Beauty</h1>
     )
 }
