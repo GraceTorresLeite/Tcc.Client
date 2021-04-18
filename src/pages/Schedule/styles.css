@@ -1,0 +1,153 @@
+.schedule-container{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.schedule-container header{
+    display: flex;
+    align-items: center;
+}
+
+.schedule-container header span{
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.schedule-container header span strong{
+    color:  #6764b1;
+}
+
+.schedule-container header img{
+    height: 150px;
+}
+
+.schedule-container header a{
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.schedule-container header button{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+   border: 1px solid #dcdce6;
+   background: transparent;
+   margin-left: 16px;
+   transition: border-color 0.5s;
+}
+
+.schedule-container header button:hover{
+   border-color:  #6764b1;
+}
+
+.schedule-container h1{
+    margin-top: 40px;
+    margin-bottom: 24px;
+    margin-block-end: 20px;
+}
+
+.schedule-container hr{
+   border-top: 3px solid #6764b1 ;
+   width: 20%;
+   position: relative;
+   margin-top: -10px;
+}
+
+.schedule-container ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 24px;
+    list-style:none;
+}
+
+.schedule-container ul li{
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.schedule-container ul li input{
+    width: 90%;
+    height: 4%;
+    border-radius: 4px;
+    position: relative;
+}
+
+.schedule-container ul li input#description{
+    width: 90%;
+    height: 7%;
+}
+
+.schedule-container ul li input#date{
+    width: 40%;
+}
+
+ .schedule-container ul li input#time{
+    width: 40%;
+}
+
+.schedule-container ul li button{
+   position: absolute;
+   right: 24px;
+   top: 24px;
+   border: 0;
+   background: transparent;
+}
+.schedule-container ul li button + button{
+    top: 50px;
+}
+
+.schedule-container ul li button:hover{
+   opacity: 0.8;
+ }
+
+.schedule-container ul li strong{
+   display: block;
+   margin-bottom: 16px;
+   color: #41414D;
+}
+
+.schedule-container ul li p + strong{
+    margin-top: 15px;
+}
+
+.schedule-container ul li input + strong{
+    margin-top: 15px;
+}
+
+.schedule-container ul li p {
+    color:#737380 ;
+    margin-top: -10px;
+    line-height: 8px;
+    font-size: 15px;
+    
+}
+
+.schedule-container ul li input {
+    color:#737380 ;
+    line-height: 21px;
+    font-size: 15px;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
