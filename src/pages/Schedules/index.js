@@ -11,8 +11,8 @@ export default function Schedules(){
         <div className='schedule-container'>
             <header>
                 <img src={logoSchedule} alt='Schedule'/>
-                <span>Bem-vindo, <strong>Cliente</strong>!</span>
-                <Link className='button' to='schedule/new'>Enviar pedido de agendamento</Link>
+                <span><strong>Bem-vindo!</strong></span>
+                <Link className='button' to='schedule/new'>Nova marcação</Link>
                 <button type='button'>
                     <FiPower size={18} color='#251FC5'/>
                 </button>

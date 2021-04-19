@@ -12,7 +12,7 @@ export default function Schedule(){
             <header>
                 <img src={logoSchedule} alt='Schedule'/>
                 <span>Bem-vindo, <strong>Cliente</strong>!</span>
-                <Link className='button' to='schedule/new'>Enviar pedido de agendamento</Link>
+                <Link className='button' to='schedules'>Enviar pedido de agendamento</Link>
                 <button type='button'>
                     <FiPower size={18} color='#251FC5'/>
                 </button>
